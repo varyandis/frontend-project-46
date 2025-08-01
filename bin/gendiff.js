@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
-import { program } from 'commander';
-import gendiff from '../src/index.js';
+import { program } from 'commander'
+import gendiff from '../src/index.js'
 
-const command = () => { };
+// const command = () => { }
 
 program
   .name('gendiff')
@@ -12,4 +12,4 @@ program
   .arguments('<filepath1> <filepath2>')
   .option('-f, --format <type>', 'output format')
   .action(gendiff)
-  .parse(process.argv);
+  .parse(process.argv)

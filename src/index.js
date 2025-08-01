@@ -1,4 +1,4 @@
-import parseFile from './parseFile.js';
+import parseFile from './parseFile.js'
 
 export default function gendiff(filepath1, filepath2) {
   const obj1 = parseFile(filepath1)
