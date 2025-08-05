@@ -1,7 +1,9 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/varyandis/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/varyandis/frontend-project-46/actions)
+[![Node CI](https://github.com/varyandis/frontend-project-46/actions/workflows/lint-check.yml/badge.svg)](https://github.com/varyandis/frontend-project-46/actions/workflows/lint-check.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=varyandis_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=varyandis_frontend-project-46)
 
-# 📘 Gendiff — Вычислитель отличий
+# Gendiff — Вычислитель отличий
 
 **Gendiff** – программа, определяющая разницу между двумя структурами данных.
 
@@ -11,7 +13,7 @@
 
 ---
 
-## 📦 Установка
+## Установка
 
 ```bash
 git clone https://github.com/varyandis/frontend-project-46.git
@@ -20,7 +22,7 @@ make install
 
 ---
 
-## 🚀 Использование
+## Использование
 
 ```bash
 gendiff file1.json file2.json
