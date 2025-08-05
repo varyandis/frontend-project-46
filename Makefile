@@ -1,4 +1,4 @@
 install:
 	npm ci
-make lint:
+lint:
 	npx eslint .

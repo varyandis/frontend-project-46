@@ -3,7 +3,7 @@ import parseFile from './parseFile.js'
 export default function gendiff(filepath1, filepath2) {
   const obj1 = parseFile(filepath1)
   const obj2 = parseFile(filepath2)
-  const keys = [...Object.keys(obj1), ...Object.keys(obj2)].sort()
+  const keys = [...Object.keys(obj1), ...Object.keys(obj2)].sort((a, b) => a.localeCompare(b))
   const uniqKeys = new Set(keys)
   const result = [...uniqKeys].map((key) => {
     const value1 = obj1[key]
