@@ -3,8 +3,6 @@
 import { program } from 'commander'
 import gendiff from '../src/index.js'
 
-// const command = () => { }
-
 program
   .name('gendiff')
   .version('0.0.1')
