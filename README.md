@@ -47,4 +47,5 @@ gendiff file1.json file2.json
 
 [![asciicast](https://asciinema.org/a/M6zw5nrgMTRNLbQEFjEMLm4pn.svg)](https://asciinema.org/a/M6zw5nrgMTRNLbQEFjEMLm4pn)
 [![asciicast](https://asciinema.org/a/YfSgX90C7gdwFyQLP4prd8SuE.svg)](https://asciinema.org/a/YfSgX90C7gdwFyQLP4prd8SuE)
+[![asciicast](https://asciinema.org/a/VZSJZs4ByF8q6s2XWdDTSGta6.svg)](https://asciinema.org/a/VZSJZs4ByF8q6s2XWdDTSGta6)
 ---
