@@ -28,7 +28,7 @@ make install
 gendiff file1.json file2.json
 ```
 
-### 📋 Пример вывода:
+### Пример вывода:
 
 ```
 {
@@ -43,8 +43,8 @@ gendiff file1.json file2.json
 
 ---
 
-## 🎬 Пример работы (asciinema)
+## Пример работы (asciinema)
 
 [![asciicast](https://asciinema.org/a/M6zw5nrgMTRNLbQEFjEMLm4pn.svg)](https://asciinema.org/a/M6zw5nrgMTRNLbQEFjEMLm4pn)
-
+[![asciicast](https://asciinema.org/a/YfSgX90C7gdwFyQLP4prd8SuE.svg)](https://asciinema.org/a/YfSgX90C7gdwFyQLP4prd8SuE)
 ---
