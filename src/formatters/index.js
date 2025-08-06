@@ -6,7 +6,9 @@ export const formattedDiff = (three, format) => {
     case 'stylish':
       return stylish(three)
     case 'plain':
-      return plain((three))
+      return plain(three)
+    case 'json':
+      return JSON.stringify(three)
     default:
       throw new Error(`Unknown format: ${format}`)
   }

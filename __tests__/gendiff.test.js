@@ -15,6 +15,7 @@ const file3 = getFixturePath('file3.yml')
 const file4 = getFixturePath('file4.yml')
 const expected = readFile('expected.txt')
 const expectedPlain = readFile('expectedPlain.txt')
+const expectedJson = readFile('expectedJson.txt')
 
 test('gendiff compares JSON files', () => {
   expect(gendiff(file1, file2)).toBe(expected)
@@ -26,4 +27,8 @@ test('gendiff compares YAML files', () => {
 
 test('gendiff compares files from plain format', () => {
   expect(gendiff(file1, file2, 'plain')).toBe(expectedPlain)
+})
+
+test('gendiff compares files from json format', () => {
+  expect(gendiff(file1, file2, 'json')).toBe(expectedJson)
 })
