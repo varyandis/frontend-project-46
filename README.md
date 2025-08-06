@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/varyandis/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/varyandis/frontend-project-46/actions)
 [![Node CI](https://github.com/varyandis/frontend-project-46/actions/workflows/lint-check.yml/badge.svg)](https://github.com/varyandis/frontend-project-46/actions/workflows/lint-check.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=varyandis_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=varyandis_frontend-project-46)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=varyandis_frontend-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=varyandis_frontend-project-46)
 
 # Gendiff — Вычислитель отличий
 
